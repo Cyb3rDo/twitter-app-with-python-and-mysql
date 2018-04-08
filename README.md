@@ -20,6 +20,7 @@ Before you can run the script you need to do the following:
 3.	Run the script called “pbskidd_create_tweet_table2.sql” in MySQL admin toll of your choice
 4.	Check if the table and db has been created
 5.	Get the credentials from dev.twitter.com for your app under “My Apps” and put them under:
+
 access_key = ''
 access_secret = ''
 consumer_key = ''
