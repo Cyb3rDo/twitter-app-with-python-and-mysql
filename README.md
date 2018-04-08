@@ -9,9 +9,9 @@ This app will use Python, MySQL and csv
 5. Collects tweets for screen name                                                 
 6. Puts collected tweets in MySQL db        
 
-Pbskidd Twitter App – Set up
+## Pbskidd Twitter App – Set up
 
-## 1	SETTING UP MYSQL DATABASE AND RUNNING THE SCRIPT
+### 1	SETTING UP MYSQL DATABASE AND RUNNING THE SCRIPT
 
 Before you can run the script you need to do the following:
 
@@ -39,7 +39,7 @@ Index starts from 0 (0= first column in csv file, 1= second column, etc.)
 9.	For installing the Python MySQL connector use: “pip install MySQL-python” from command line
 10.	Put in credentials for MySql db in script by updating the following section:
 
-## MySQL initialization - create a MySql db 
+### MySQL initialization - create a MySql db 
 ```python
 connection =  MySQLdb.connect(host= "127.0.0.1",
 user="",
