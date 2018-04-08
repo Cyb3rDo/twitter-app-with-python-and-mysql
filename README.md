@@ -21,10 +21,12 @@ Before you can run the script you need to do the following:
 4.	Check if the table and db has been created
 5.	Get the credentials from dev.twitter.com for your app under “My Apps” and put them under:
 
+```python
 access_key = ''
 access_secret = ''
 consumer_key = ''
 consumer_secret = ''
+```
 
 in the script.
 
@@ -38,13 +40,13 @@ Index starts from 0 (0= first column in csv file, 1= second column, etc.)
 10.	Put in credentials for MySql db in script by updating the following section:
 
 ## MySQL initialization - create a MySql db 
-
+```python
 connection =  MySQLdb.connect(host= "127.0.0.1",
 user="",
 passwd="",
 db="")
 cursor = connection.cursor()
-
+```
 
 Run the script from command line: python pbskidd_twitter_app_final.py
 
